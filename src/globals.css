@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.home-bg {
+  background-image: url("../public/assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+@media (min-width: 768px) {
+  .home-bg {
+    background-image: url("../public/assets/images/background-pattern-desktop.svg");
+  }
+}
